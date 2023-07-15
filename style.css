@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+ 
+}
+
+#slider {
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* width: 1600px; */
+  margin: auto;
+}
+
+.subcontainer {
+  width: 85%;
+  margin: auto;
+}
+
+.slide-img {
+  width: 100%;
+  height: 270px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.slider-img a {
+  opacity: 0;
+  text-decoration: none;
+  transform: scale(0);
+  font-size: 1.5rem;
+  color: white;
+}
+
+.slide-img:hover {
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.slide-img:hover a{
+ opacity: 1;
+ transform: scale(1);
+}
+
+.img-1 {
+  background-image: url(https://img.freepik.com/free-photo/high-angle-pie-chart-with-cities_52683-98166.jpg?size=626&ext=jpg&ga=GA1.2.597781842.1685241639&semt=sph);
+}
+
+.img-2 {
+  background-image: url(https://img.freepik.com/free-photo/complex-aerial-view-city_23-2148975282.jpg?size=626&ext=jpg&ga=GA1.2.597781842.1685241639&semt=sph);
+}
+
+.img-3 {
+  background-image: url(https://img.freepik.com/free-photo/pattaya-chonburi-thailand-28-may-2019-beautiful-landscape-cityscape-pattaya-city-is-popular-destination-thailand-with-white-cloud-blue-sky_74190-8741.jpg?size=626&ext=jpg&ga=GA1.2.597781842.1685241639&semt=sph);
+}
+
+.img-4 {
+  background-image: url(https://img.freepik.com/free-photo/shiny-night-city_1127-8.jpg?size=626&ext=jpg&ga=GA1.2.597781842.1685241639&semt=sph);
+}
+
+.img-5 {
+  background-image: url(https://img.freepik.com/free-photo/beautiful-shot-famous-roman-colosseum-amphitheater-breathtaking-sky-sunrise_181624-6998.jpg?size=626&ext=jpg&ga=GA1.2.597781842.1685241639&semt=sph);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1600px) {
+  .container {
+    width: 100%;
+  }
+}
